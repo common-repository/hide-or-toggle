@@ -1,0 +1,64 @@
+/*!******************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./blocks/simple-hide/style.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-hide-or-toggle-simple-hide {
+  border: 0;
+  text-align: left;
+}
+.wp-block-hide-or-toggle-simple-hide.is-style-default {
+  padding: 1em;
+  margin: 1em;
+}
+.wp-block-hide-or-toggle-simple-hide.is-style-expanded {
+  background-color: azure;
+  border-radius: 1px;
+  padding: 1.5em;
+  margin: 1em;
+}
+.wp-block-hide-or-toggle-simple-hide.is-style-compact {
+  background-color: whitesmoke;
+  border-radius: 5px;
+  padding: 1px;
+  margin: 1px;
+}
+
+.wp-block-hide-or-toggle-simple-hide .show {
+  cursor: pointer;
+  float: left;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding-top: 3px;
+}
+
+.wp-block-hide-or-toggle-simple-hide .hide {
+  cursor: pointer;
+  display: none;
+  float: left;
+  margin-left: 1em;
+  padding-top: 3px;
+}
+
+.wp-block-hide-or-toggle-simple-hide .title {
+  color: inherit;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 1px;
+}
+
+.wp-block-hide-or-toggle-simple-hide .hidden {
+  color: inherit;
+  border-radius: 1px;
+  border-style: dashed;
+  border-width: 1px;
+  display: none; /* here is none!!! */
+  margin: 1em;
+  padding: 1em;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

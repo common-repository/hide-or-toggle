@@ -1,0 +1,44 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "hide-or-toggle/simple-blocks",
+  "version": "0.1.0",
+  "title": "Simple with Blocks",
+  "category": "widgets",
+  "keywords": [
+    "simple blocks"
+  ],
+  "icon": "plus-alt",
+  "description": "Simple Blocks is based in Itm Simple Hide. ",
+  "supports": {
+    "html": false,
+    "color": {
+      "text": true,
+      "background": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "source": "html",
+      "selector": ".title"
+    },
+    "backgroundColor": {
+      "type": "string"
+    },
+    "speed": {
+      "type": "string",
+      "default": "slow"
+    }
+  },
+  "example": {
+    "attributes": {
+      "title": "Use a tittle or a question",
+      "content": "A paragraph with some content."
+    }
+  },
+  "textdomain": "hide-or-toggle",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
